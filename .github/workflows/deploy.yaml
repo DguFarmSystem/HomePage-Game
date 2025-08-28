@@ -25,7 +25,7 @@ jobs:
 
       - name: Add remote-url
         run: |
-          git remote add forked-repo https://farmsystem-account:${{ secrets.AUTO_ACTIONS }}@github.com/farmsystem-account/HomePage-FE
+          git remote add forked-repo https://farmsystem-account:${{ secrets.AUTO_ACTIONS }}@github.com/farmsystem-account/HomePage-Game.git
           git config user.name farmsystem-account
           git config user.email ${{ secrets.EMAIL }}
 
